@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  color: #fff;
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: black;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.navbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bacgrounStyle, .bacgrounStyle01, .bacgrounStyle02, .bacgrounStyle03, .bacgrounStyle04 {
+  padding: 20px;
+  margin-top: 0px;
+  background-color: #000;
+  height: 590px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bacgrounStyle {
+  background-image: url(../imgs/bg-pricing.jpg);
+}
+
+.bacgrounStyle01 {
+  background-image: url(../imgs/bg3.jpg);
+}
+
+.bacgrounStyle02 {
+  background-image: url(../imgs/card-1.jpeg);
+}
+
+.bacgrounStyle03 {
+  background-image: url(../imgs/card-2.jpeg);
+}
+
+.bacgrounStyle04 {
+  background-image: url(../imgs/lock.jpg);
+}
+
+.bacgrounStyle h1, .bacgrounStyle01 h1, .bacgrounStyle02 h1, .bacgrounStyle03 h1, .bacgrounStyle04 h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bacgrounStyle .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bacgrounStyle p {
+  width: 60%;
+  overflow: scroll;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid #000;
+  margin: 0;
+  text-align: left;
+}
+
+.bacgrounStyle img {
+  border-radius: 50%;
+  display: block;
+  width: 20%;
+  margin: 0;
+}
+
+.bacgrounStyle01 p, .bacgrounStyle02 p, .bacgrounStyle03 p, .bacgrounStyle04 p {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+  text-align: left;
+}
+
+.bacgrounStyle01 img, .bacgrounStyle02 img, .bacgrounStyle03 img, .bacgrounStyle04 img {
+  border-radius: 50%;
+  display: block;
+  width: 20%;
+  margin: 10px auto;
+}
